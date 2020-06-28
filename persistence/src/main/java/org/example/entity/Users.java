@@ -22,7 +22,7 @@ public class Users {
         this.id= UUID.randomUUID().toString();
     }
 
-    @Id
+   
     public String getId() {
         return id;
     }
